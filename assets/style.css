@@ -1,0 +1,74 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: #f2f5fc;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+}
+
+#logo {
+    width: 10%;
+    height: auto;
+    margin: 10px 0;
+}
+
+#form {
+    background-color: white;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+.ajuste-titulo {
+    color: #725fc9;
+}
+
+form .form-group {
+    margin-bottom: 1rem;
+}
+
+form label {
+    font-weight: bold;
+}
+.custom-navbar {
+    background-color: #725fc9;
+}
+.custom-btn {
+    background-color: #725fc9;
+    color: white;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.custom-btn:hover {
+    background-color: #5b47a8;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar {
+    justify-content: start;
+}
+
+#resultado-media {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+#card-resultado {
+    background-color: white;
+    border-radius: 5px;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/style.css">
+    <title>Calcular Média</title>
+</head>
+<body>  
+    <nav class="navbar navbar-expand-lg custom-navbar">
+        <a class="navbar-brand custom-nav-text" href="https://drive.google.com/file/d/1Qys252e8ftzmOwfDThf_J6Ou0ch4Mk6t/view?usp=sharing" target="_blank">Documentação</a>
+        <a class="navbar-brand custom-nav-text" href="./sobre.html">Sobre</a>
+    </nav>
+    <div id="container" class="text-center">
+        <img id="logo" src="../assets/images/calculadoralogo.png" alt="Logo">
+    </div>
+    <h1 class="custom-title text-center mb-4">Insira suas notas</h1>
+    <div id="card-resultado">
+        <h2 id="resultado-media"></h2>
+    </div>
+    <div class="d-flex justify-content-center">
+        <form id="form" class="p-4 rounded shadow">
+            <div class="form-group">
+                <label for="nota1">nota 1</label>
+                <input placeholder="Digite o valor da nota 1" class="form-control" type="number" id="nota1">
+            </div>
+            <div class="form-group">
+                <label for="nota2">nota 2</label>
+                <input placeholder="Digite o valor da nota 2" class="form-control" type="number" id="nota2">
+            </div>
+            <div class="form-group">
+                <label for="nota3">nota 3</label>
+                <input placeholder="Digite o valor da nota 3" class="form-control" type="number" id="nota3">
+            </div>
+            <div class="form-group">
+                <label for="nota4">nota 4</label>
+                <input placeholder="Digite o valor da nota 4" class="form-control" type="number" id="nota4">
+            </div>
+            <button type="button" class="btn custom-btn btn-block" onclick="calcular_media()">Calcular Média</button>
+        </form>
+    </div>
+    <script src="../js/calcularmedia.js"></script>
+</body>
+</html>
